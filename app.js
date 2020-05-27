@@ -9,9 +9,5 @@ div.style.height="100%";
 div.style.background="red";
 document.body.appendChild(div);
 
-// ReactDOM.render(<Ocean />,div);
-ReactDOM.render(
-	<MyRouter />
-	,
-	div
-);
+
+ReactDOM.render(<MyRouter />,div);
